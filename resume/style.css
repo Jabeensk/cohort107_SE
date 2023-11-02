@@ -1,0 +1,33 @@
+
+.main_container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+}
+
+/* Style for section1 and its boxes using Flexbox */
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1, .box2 {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.box3 {
+    width: 100%; /* Take the full width under Box 1 and Box 2 */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+}

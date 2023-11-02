@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 24px;
+    color: white;
+}
+
+
+p {
+    font-size: 16px;
+    color: white;
+
+}
+
+input[type="text"], select, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid red; /* Red border color */
+    background-color: #8b0000; /* Red background color */
+    color: white; 
+}
+
+select {
+    height: 40px;
+}
+
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid red; /* Red border color */
+    background-color: #8b0000; /* Red background color */
+    color: #8b0000;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

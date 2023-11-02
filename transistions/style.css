@@ -1,0 +1,41 @@
+body div {
+    width: 100px;
+    height: 100px;
+
+}
+#box1 {
+    background-color: green;
+    transition-property: background-color;
+    transition-duration: 2s;
+ }
+ #box1:hover {
+    background-color: lightskyblue;
+ }
+
+ #box2 {
+    background-color: yellow;
+    transition-property: font-size;
+    transition-duration: 2s;
+ }
+ #box2:hover {
+    font-size: 100px;
+ }
+ 
+ #box3 {
+    background-color: pink;
+    transition-property: width, height;
+    transition-duration: 2s;
+ }
+ #box3:hover {
+    width: 200px;
+    height: 200px;
+ }
+
+ #box7 {
+    background-color: blue;
+    transition: background-color 2s ease;
+
+ }
+ #box7 :hover{
+    background-color: purple;
+ }
